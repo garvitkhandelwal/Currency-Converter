@@ -1,0 +1,45 @@
+{
+  "name": "CurrencyConverter",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1",
+    "prettier": "^1.5.3",
+    "prettier-eslint": "^8.2.2",
+    "react-native-scripts": "1.14.0"
+  },
+  "scripts": {
+    "start": "expo start",
+    "eject": "expo eject",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "debug-log": "^2.0.0",
+    "expo": "^31.0.4",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.1.tar.gz"
+  },
+  "description": "Want the step-by-step on building this app? Checkout my [free video course](http://learn.handlebarlabs.com/p/react-native-basics-build-a-currency-converter) that goes alongside this repo. You'll love it! :)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garvitkhandelwal/Currency-Converter.git"
+  },
+  "keywords": [
+    "currencyconverter"
+  ],
+  "author": "garvit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garvitkhandelwal/Currency-Converter/issues"
+  },
+  "homepage": "https://github.com/garvitkhandelwal/Currency-Converter#readme"
+}
